@@ -1,10 +1,7 @@
 import React, { Component } from 'react';
-<<<<<<< HEAD
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-=======
-import { BrowserRouter,HashRouter, Route, Switch } from 'react-router-dom';
->>>>>>> 398665d7322c5154b9d0937690f0841c4e651554
 import './scss/style.scss';
+
 
 const loading = (
   <div className="pt-3 text-center">
@@ -14,6 +11,7 @@ const loading = (
 
 // Containers
 const TheLayout = React.lazy(() => import('./containers/TheLayout'));
+
 
 // Pages
 const Login = React.lazy(() => import('./views/pages/login/Login'));
